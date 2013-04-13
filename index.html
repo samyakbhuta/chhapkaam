@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="gu">
+  <head>
+    <meta charset="utf-8">
+    <title>છાપકામ : ગુજરાતી ફોન્ટ અવલોકન</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p>છાપકામ : ગુજરાતી ફોન્ટ અવલોકન</p>
+    <div>
+      <button class="fontFamily">Gujarati MT</button>
+      <button class="fontFamily">Gujarati Sangam MN</button>
+      <button class="fontFamily">Aakar</button>
+      <button class="fontFamily">Rekha</button>
+    </div>
+
+    <div>
+      <button class="fontSize">0.5em</button>
+      <button class="fontSize">1em</button>
+      <button class="fontSize">1.5em</button>
+      <button class="fontSize">2em</button>
+      <button class="fontSize">2.5em</button>
+      <button class="fontSize">3em</button>
+      <button class="fontSize">4em</button>
+    </div>
+
+    <p>ૐ</p>
+    <p>અ આ ઇ ઈ ઉ ઊ ઋ ૠ ઍ એ ઐ ઑ ઓ ઔ</p>
+    <p>કઁ કં કઃ ક઼ કઽ કા કિ કી કુ કૂ કૃ કૄ કૅ કે કૈ કૉ કો કૌ ક્</p>
+    <p>૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ ૦</p>
+    <p>ક ખ ગ ઘ ઙ</p>
+    <p>ચ છ જ ઝ ઞ</p>
+    <p>ટ ઠ ડ ઢ ણ</p>
+    <p>ત થ દ ધ ન</p>
+    <p>પ ફ બ ભ મ</p>
+    <p>ય ર લ ળ વ</p>
+    <p>શ ષ સ હ</p>
+    <p>ક્ષ ત્ર જ્ઞ શ્ર</p>
+    <p>૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ ૦</p>
+    <p>૱</p>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('button.fontFamily').bind('click', function() {
+              changeStyle(null,$(this).text());
+            });
+            $('button.fontSize').bind('click', function() {
+              changeStyle($(this).text(),null);
+            });
+        });
+
+        function changeStyle (fontSize, fontFamily) {
+          fontSize && $('p').css("font-size",fontSize);
+          fontFamily && $('p').css("font-family",fontFamily);
+        }
+    </script>
+  </body>
+</html>
