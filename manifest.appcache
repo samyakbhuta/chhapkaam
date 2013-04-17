@@ -6,6 +6,7 @@ CACHE MANIFEST
 # Explicitly cached. No wildcards allowed here :(
 CACHE:
 index.html
+jquery-1.9.1.min.js
 aakar-medium-webfont.eot
 aakar-medium-webfont.svg
 aakar-medium-webfont.ttf
