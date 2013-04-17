@@ -1,29 +1,29 @@
 CACHE MANIFEST
 
 # IMPORTANT, Change 'Cache Key' to new value everytime you want browser to fetch new version of your file(s).
-# Cache Key : Wed Apr 17 2013 13:13:40 GMT+0530 (IST)
+# Cache Key : Thu Apr 18 2013 02:26:40 GMT+0530 (IST)
 
 # Explicitly cached. No wildcards allowed here :(
 CACHE:
 favicon.ico
 index.html
 jquery-1.9.1.min.js
-aakar-medium-webfont.eot
-aakar-medium-webfont.svg
-aakar-medium-webfont.ttf
-aakar-medium-webfont.woff
-lohit-gujarati-webfont.eot
-lohit-gujarati-webfont.svg
-lohit-gujarati-webfont.ttf
-lohit-gujarati-webfont.woff
-rekha-webfont.eot
-rekha-webfont.svg
-rekha-webfont.ttf
-rekha-webfont.woff
-samyak-gujarati-webfont.eot
-samyak-gujarati-webfont.svg
-samyak-gujarati-webfont.ttf
-samyak-gujarati-webfont.woff
+
+Aakar-sfntly-webfonts.eot
+Aakar-sfntly-webfonts.woff
+Aakar-sfntly-webfonts.ttf
+
+Rekha-sfntly-webfonts.eot
+Rekha-sfntly-webfonts.woff
+Rekha-sfntly-webfonts.ttf
+
+Samyak-Gujarati-sfntly-webfonts.eot
+Samyak-Gujarati-sfntly-webfonts.woff
+Samyak-Gujarati-sfntly-webfonts.ttf
+
+Lohit-Gujarati-sfntly-webfonts.eot
+Lohit-Gujarati-sfntly-webfonts.woff
+Lohit-Gujarati-sfntly-webfonts.ttf
 
 # Resources that require the user to be online.
 NETWORK:
