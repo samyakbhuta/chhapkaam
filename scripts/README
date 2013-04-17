@@ -1,0 +1,9 @@
+README
+------
+
+* How to run this script?
+
+$python GujMaster.py
+
+It will create Gujarati.txt file which will contain all possible combination for
+Gujarati language.
