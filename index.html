@@ -1,9 +1,36 @@
 <!DOCTYPE html>
-<html lang="gu">
+<html lang="gu" manifest="manifest.appcache">
   <head>
     <meta charset="utf-8">
     <title>છાપકામ : ગુજરાતી ફોન્ટ અવલોકન</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- iOS Web Application Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- iPhone ICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="ios/Icon.png" />
+    <!-- iPad ICON-->
+    <link rel="apple-touch-icon" sizes="72x72" href="ios/Icon-72.png" />
+    <!-- iPhone (Retina) ICON-->
+    <link rel="apple-touch-icon" sizes="114x114" href="ios/Icon@2x.png" />
+    <!-- iPad (Retina) ICON-->
+    <link rel="apple-touch-icon" sizes="144x144" href="ios/Icon-72@2x.png" />
+
+    <!-- iPhone SPLASHSCREEN-->
+    <link rel="apple-touch-startup-image" href="ios/splashscreens/apple-touch-startup-image-320x460.png" media="(device-width: 320px)"/>
+    <!-- iPhone (Retina) SPLASHSCREEN-->
+    <link rel="apple-touch-startup-image" href="ios/splashscreens/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image"/>
+    <!-- iPad (non-Retina) (Portrait) -->
+    <link rel="apple-touch-startup-image" href="ios/splashscreens/apple-touch-startup-image-768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)"/>
+    <!-- iPad (non-Retina) (Landscape) -->
+    <link rel="apple-touch-startup-image" href="ios/splashscreens/apple-touch-startup-image-1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)"/>
+    <!-- iPad (Retina) (Portrait) -->
+    <link rel="apple-touch-startup-image" href="ios/splashscreens/apple-touch-startup-image-1536x2008.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+    <!-- iPad (Retina) (Landscape) -->
+    <link rel="apple-touch-startup-image" href="ios/splashscreens/apple-touch-startup-image-2048x1496.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)"/>
+
     <style type="text/css">
       body {
         text-align: center;
@@ -97,7 +124,7 @@
     <p>૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ ૦</p>
     <p>૱</p>
 
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('button.fontFamily').bind('click', function() {
