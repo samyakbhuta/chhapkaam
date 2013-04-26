@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
 # IMPORTANT, Change 'Cache Key' to new value everytime you want browser to fetch new version of your file(s).
-# Cache Key : Sat Apr 20 2013 01:04:50 GMT+0530 (IST)
+# Cache Key : Fri Apr 26 2013 14:42:56 GMT+0530 (IST)
 
 # Explicitly cached. No wildcards allowed here :(
 CACHE:
@@ -24,6 +24,10 @@ Samyak-Gujarati-sfntly-webfonts.ttf
 Lohit-Gujarati-sfntly-webfonts.eot
 Lohit-Gujarati-sfntly-webfonts.woff
 Lohit-Gujarati-sfntly-webfonts.ttf
+
+Raghu-Gujarati-sfntly-webfonts.eot
+Raghu-Gujarati-sfntly-webfonts.ttf
+Raghu-Gujarati-sfntly-webfonts.woff
 
 # Resources that require the user to be online.
 NETWORK:
