@@ -1,12 +1,13 @@
 CACHE MANIFEST
 
 # IMPORTANT, Change 'Cache Key' to new value everytime you want browser to fetch new version of your file(s).
-# Cache Key : Fri Apr 26 2013 16:38:08 GMT+0530 (IST)
+# Cache Key : Wed May 01 2013 18:55:51 GMT+0530 (IST
 
 # Explicitly cached. No wildcards allowed here :(
 CACHE:
 favicon.ico
 index.html
+forkme_right_orange_ff7600.png
 jquery-1.9.1.min.js
 
 Aakar-sfntly-webfonts.eot
