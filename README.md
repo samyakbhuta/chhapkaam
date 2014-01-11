@@ -13,3 +13,7 @@
 
 * તમારી 'ગિટ પુલ' વિનંતી મોકલો.
 * [ચકાસણી અને બગ રીપોર્ટ.](https://github.com/samyakbhuta/chhapkaam/issues)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/samyakbhuta/chhapkaam/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
